@@ -7,4 +7,8 @@ FROM orders o
 JOIN users u ON o.user_id = u.user_id
 WHERE order_status = 'shipped';
 
+SELECT
+	u.last_name,
+FROM users
+WHERE last_name = 'Smith';
 
