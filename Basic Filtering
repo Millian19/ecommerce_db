@@ -1,4 +1,4 @@
-What are the orders that are labeled shipped?
+----What are the orders that are labeled shipped?-----
 
 SELECT
 	u.first_name
