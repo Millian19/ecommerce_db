@@ -1,0 +1,10 @@
+USE ecommercedb;
+
+SELECT
+	u.first_name
+,	o.order_status
+FROM orders o
+JOIN users u ON o.user_id = u.user_id
+WHERE order_status = 'shipped';
+
+
